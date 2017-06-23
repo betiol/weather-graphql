@@ -40,7 +40,7 @@
     "eslint": "eslint index.js server/** test/**",
     "flow": "flow; test $? -eq 0 -o $? -eq 2",
     "start": "node dist/index.js",
-    "watch": "nodemon src/index.js --exec babel-node",
+    "watch": "nodemon app/index.js --exec babel-node",
     "update-schema": "babel-node ./scripts/updateSchema.js"
   }
 }

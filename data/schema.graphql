@@ -1,0 +1,21 @@
+type City {
+    temp: Int, 
+    date: String,
+    time: String,
+    condition_code: String,
+    description: String,
+    currently: String,
+    cid: String,
+    city: String,
+    img_id: String,
+    humidity: String,
+    wind_speedy: String,
+    sunrise: String,
+    sunset: String,
+    condition_slug: String,
+    city_name: String,
+}
+
+type Query {
+    weatherByCity(city: String!): City
+}
