@@ -4,7 +4,7 @@ import { GraphQLObjectType, GraphQLString, GraphQLInt } from 'graphql';
 
 export default new GraphQLObjectType({
     name: 'City',
-    description: 'Represents an address',
+    description: 'Represents cities',
     fields: {
         temp: {
             type: GraphQLInt,
